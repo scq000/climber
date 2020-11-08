@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should render correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#7b7b7b",
+      "borderBottomWidth": 0.5,
+      "borderStyle": "solid",
+      "marginVertical": 5,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#7b7b7b",
+        "fontSize": 16,
+        "left": 4,
+        "position": "absolute",
+        "top": 14,
+      }
+    }
+  />
+  <TextInput
+    allowFontScaling={true}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontFamily": "Helvetica",
+          "paddingBottom": 0,
+        },
+        undefined,
+      ]
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+</View>
+`;
+
+exports[`Input should render with label correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#7b7b7b",
+      "borderBottomWidth": 0.5,
+      "borderStyle": "solid",
+      "marginVertical": 5,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#7b7b7b",
+        "fontSize": 16,
+        "left": 4,
+        "position": "absolute",
+        "top": 14,
+      }
+    }
+  >
+    test-label
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontFamily": "Helvetica",
+          "paddingBottom": 0,
+        },
+        undefined,
+      ]
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+</View>
+`;

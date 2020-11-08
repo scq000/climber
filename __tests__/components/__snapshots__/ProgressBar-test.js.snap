@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar should render correctly 1`] = `
+<View>
+  <RNSVGSvgView
+    bbHeight={300}
+    bbWidth={300}
+    focusable={false}
+    height={300}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        Object {
+          "flex": 0,
+          "height": 300,
+          "width": 300,
+        },
+      ]
+    }
+    width={300}
+  >
+    <RNSVGGroup>
+      <RNSVGGroup
+        matrix={
+          Array [
+            -1.8369701987210297e-16,
+            -1,
+            1,
+            -1.8369701987210297e-16,
+            2.842170943040401e-14,
+            300,
+          ]
+        }
+      >
+        <RNSVGPath
+          d="M 149.91517700393416 15.000026647931008 A 135 135 0 1 0 150 15"
+          fill={0}
+          propList={
+            Array [
+              "fill",
+              "stroke",
+              "strokeWidth",
+              "strokeLinecap",
+            ]
+          }
+          stroke={4292401368}
+          strokeLinecap={1}
+          strokeWidth={30}
+        />
+      </RNSVGGroup>
+    </RNSVGGroup>
+  </RNSVGSvgView>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderRadius": 120,
+        "height": 240,
+        "justifyContent": "center",
+        "left": 30,
+        "overflow": "hidden",
+        "position": "absolute",
+        "top": 30,
+        "width": 240,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Helvetica",
+            },
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 35,
+            },
+          ]
+        }
+      >
+        Steps
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Helvetica",
+            },
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 50,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        123
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Helvetica",
+            },
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+            },
+          ]
+        }
+      >
+        Today
+      </Text>
+    </View>
+  </View>
+</View>
+`;

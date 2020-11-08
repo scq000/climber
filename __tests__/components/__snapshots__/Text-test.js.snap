@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text should render empty text correctly 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "fontFamily": "Helvetica",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Text should render not empty text correctly 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "fontFamily": "Helvetica",
+      },
+      undefined,
+    ]
+  }
+>
+  test
+</Text>
+`;
